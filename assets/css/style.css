@@ -680,6 +680,10 @@ section{
   box-shadow: 0px 3px 15px -3px rgba(0,0,0,0.14);
 }
 
+#rodape a:hover{
+  color: #FFF;
+}
+
 @media (min-width: 425px) {
   .cards-container{
     grid-template-columns: auto auto;
