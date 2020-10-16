@@ -433,7 +433,7 @@ h1,h2,h3{
 }
 
 h1{
-  font-size: 28px;
+  font-size: 22px;
   color: #FAAA1A;
 }
 
@@ -655,6 +655,10 @@ section{
   color: #fff;
 }
 
+.preco-container .card .btn{
+  width: 100%;
+}
+
 .card-faq button{
   font-size: 14px!important;
 }
@@ -694,6 +698,10 @@ section{
   p{
     text-size:16px;
   }
+
+  h1{
+    font-size: 28px;
+  }
   #home{
     padding-top:30px;
   }
@@ -706,7 +714,7 @@ section{
     margin: 0 auto;
   }
   .cards-container{
-    grid-template-columns: auto auto auto auto;
+    grid-template-columns: auto auto auto auto auto;
   }
   .preco-container{
     grid-template-columns: auto auto;
